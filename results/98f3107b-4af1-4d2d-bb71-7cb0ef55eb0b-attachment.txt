@@ -1,0 +1,278 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_employee")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_employee")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_employee_address")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_employee_address")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_file_type")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_file_type")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_documents")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_documents")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_banks")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_banks")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_bank_details")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_bank_details")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_job_description")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_job_description")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_leave_config")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_leave_config")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_employee_leave")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_employee_leave")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("hr_leave_request")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("hr_leave_request")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("admin_role")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("admin_role")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("admin_user")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("admin_user")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("admin_roles_users")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("admin_roles_users")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("admin_route_response")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("admin_route_response")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("admin_roles_route_response")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("admin_roles_route_response")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA main.table_info("admin_site_data")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 PRAGMA temp.table_info("admin_site_data")
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1669 [raw sql] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_file_type (
+	id INTEGER NOT NULL, 
+	name VARCHAR(10) NOT NULL, 
+	description TEXT, 
+	PRIMARY KEY (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00033s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_banks (
+	id INTEGER NOT NULL, 
+	name VARCHAR(50) NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00057s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_leave_config (
+	id INTEGER NOT NULL, 
+	name VARCHAR(30) NOT NULL, 
+	days FLOAT NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00076s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE admin_role (
+	id INTEGER NOT NULL, 
+	name VARCHAR(80), 
+	description VARCHAR(255), 
+	PRIMARY KEY (id), 
+	UNIQUE (name)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00025s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE admin_user (
+	id INTEGER NOT NULL, 
+	uid VARCHAR(36), 
+	email VARCHAR(255) NOT NULL, 
+	password VARCHAR(500) NOT NULL, 
+	date_registered DATETIME, 
+	disabled BOOLEAN, 
+	PRIMARY KEY (id), 
+	UNIQUE (uid), 
+	UNIQUE (email)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00021s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE admin_route_response (
+	id INTEGER NOT NULL, 
+	name VARCHAR(25), 
+	route_path VARCHAR(300) NOT NULL, 
+	description VARCHAR(255), 
+	PRIMARY KEY (id), 
+	UNIQUE (route_path)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00060s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE admin_site_data (
+	id INTEGER NOT NULL, 
+	remote_add VARCHAR(50) NOT NULL, 
+	accessed_route VARCHAR(1000) NOT NULL, 
+	method VARCHAR(7) NOT NULL, 
+	response_time FLOAT, 
+	response_status VARCHAR(80), 
+	PRIMARY KEY (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00074s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_employee (
+	id INTEGER NOT NULL, 
+	first_name VARCHAR(100) NOT NULL, 
+	middle_name VARCHAR(100) NOT NULL, 
+	last_name VARCHAR(100) NOT NULL, 
+	birth_date DATETIME NOT NULL, 
+	gender VARCHAR(5) NOT NULL, 
+	hire_date DATETIME, 
+	manager_id INTEGER, 
+	salary INTEGER, 
+	user_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(manager_id) REFERENCES hr_employee (id), 
+	UNIQUE (user_id), 
+	FOREIGN KEY(user_id) REFERENCES admin_user (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00058s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_job_description (
+	id INTEGER NOT NULL, 
+	role_id INTEGER NOT NULL, 
+	task VARCHAR(50) NOT NULL, 
+	task_description TEXT(2000) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(role_id) REFERENCES admin_role (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00056s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE admin_roles_users (
+	id INTEGER NOT NULL, 
+	user_id INTEGER NOT NULL, 
+	role_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (user_id, role_id), 
+	FOREIGN KEY(user_id) REFERENCES admin_user (id) ON DELETE CASCADE, 
+	FOREIGN KEY(role_id) REFERENCES admin_role (id) ON DELETE CASCADE
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00066s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE admin_roles_route_response (
+	id INTEGER NOT NULL, 
+	page_id INTEGER NOT NULL, 
+	role_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (page_id, role_id), 
+	FOREIGN KEY(page_id) REFERENCES admin_route_response (id) ON DELETE CASCADE, 
+	FOREIGN KEY(role_id) REFERENCES admin_role (id) ON DELETE CASCADE
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00058s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_employee_address (
+	id INTEGER NOT NULL, 
+	employee_id INTEGER NOT NULL, 
+	city VARCHAR(20) NOT NULL, 
+	phone_number VARCHAR(30) NOT NULL, 
+	kebele INTEGER NOT NULL, 
+	woreda INTEGER NOT NULL, 
+	p_o_box VARCHAR(10) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(employee_id) REFERENCES hr_employee (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00056s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_documents (
+	id INTEGER NOT NULL, 
+	file_name VARCHAR(1000) NOT NULL, 
+	employee_id INTEGER NOT NULL, 
+	file_type_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(employee_id) REFERENCES hr_employee (id), 
+	FOREIGN KEY(file_type_id) REFERENCES hr_file_type (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00043s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_bank_details (
+	id INTEGER NOT NULL, 
+	employee_id INTEGER NOT NULL, 
+	bank_id INTEGER NOT NULL, 
+	account_number VARCHAR(100) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(employee_id) REFERENCES hr_employee (id), 
+	FOREIGN KEY(bank_id) REFERENCES hr_banks (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00059s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_employee_leave (
+	id INTEGER NOT NULL, 
+	employee_id INTEGER NOT NULL, 
+	leave_config_id INTEGER NOT NULL, 
+	days FLOAT NOT NULL, 
+	balance FLOAT, 
+	leave_year INTEGER NOT NULL, 
+	status BOOLEAN NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (employee_id, leave_config_id, leave_year), 
+	FOREIGN KEY(employee_id) REFERENCES hr_employee (id), 
+	FOREIGN KEY(leave_config_id) REFERENCES hr_leave_config (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00026s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+CREATE TABLE hr_leave_request (
+	id INTEGER NOT NULL, 
+	leave_id INTEGER, 
+	start_date DATETIME NOT NULL, 
+	requested_days FLOAT NOT NULL, 
+	status VARCHAR(9), 
+	partial FLOAT, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(leave_id) REFERENCES hr_employee_leave (id)
+)
+
+
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00022s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2620 COMMIT
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2620 COMMIT

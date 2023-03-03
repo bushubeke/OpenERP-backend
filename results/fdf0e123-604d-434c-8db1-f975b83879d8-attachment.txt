@@ -1,0 +1,1 @@
+INFO:     | 2023-03-03 12:51:36 | superuser has been successfully removed from user

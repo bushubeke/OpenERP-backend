@@ -1,0 +1,58 @@
+[1m[31mERROR   [0m erp_logger:routepath.py:112 type object 'RouteResponse' has no attribute 'route_id'
+Traceback (most recent call last):
+  File "/home/bushu/Documents/Charms/openerp/users/responses/routepath.py", line 103, in add_response_path_role_delete
+    await session.execute(delete(RouteResponse).where(RouteResponse.route_id == route_id)
+                                                      ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'RouteResponse' has no attribute 'route_id'
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_leave_request
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00033s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_employee_leave
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00070s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_bank_details
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00065s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_documents
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00084s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_employee_address
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00052s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE admin_roles_route_response
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00030s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE admin_roles_users
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00069s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_job_description
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00096s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_employee
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00054s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE admin_site_data
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00067s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE admin_route_response
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00052s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE admin_user
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00069s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE admin_role
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00051s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_leave_config
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00066s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_banks
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00051s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 
+DROP TABLE hr_file_type
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1472 [no key 0.00085s] ()
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2620 COMMIT
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2620 COMMIT

@@ -1,0 +1,12 @@
+2023-03-03 12:51:33,999 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:34,004 INFO sqlalchemy.engine.Engine SELECT admin_role.id, admin_role.name, admin_role.description 
+FROM admin_role 
+WHERE admin_role.id = ?
+2023-03-03 12:51:34,005 INFO sqlalchemy.engine.Engine [generated in 0.00132s] (1,)
+2023-03-03 12:51:34,031 INFO sqlalchemy.engine.Engine SELECT admin_role_1.id AS admin_role_1_id, admin_user.id AS admin_user_id, admin_user.uid AS admin_user_uid, admin_user.email AS admin_user_email, admin_user.password AS admin_user_password, admin_user.date_registered AS admin_user_date_registered, admin_user.disabled AS admin_user_disabled, admin_role_2.id AS admin_role_2_id, admin_role_2.name AS admin_role_2_name, admin_role_2.description AS admin_role_2_description 
+FROM admin_role AS admin_role_1 JOIN admin_roles_users AS admin_roles_users_1 ON admin_role_1.id = admin_roles_users_1.role_id JOIN admin_user ON admin_user.id = admin_roles_users_1.user_id LEFT OUTER JOIN (admin_roles_users AS admin_roles_users_2 JOIN admin_role AS admin_role_2 ON admin_role_2.id = admin_roles_users_2.role_id) ON admin_user.id = admin_roles_users_2.user_id 
+WHERE admin_role_1.id IN (?)
+2023-03-03 12:51:34,031 INFO sqlalchemy.engine.Engine [generated in 0.00065s] (1,)
+2023-03-03 12:51:34,037 INFO sqlalchemy.engine.Engine UPDATE admin_role SET id=?, name=?, description=? WHERE admin_role.id = ?
+2023-03-03 12:51:34,037 INFO sqlalchemy.engine.Engine [generated in 0.00033s] (1, 'superuser', 'Developer Role Updated', 1)
+2023-03-03 12:51:34,038 INFO sqlalchemy.engine.Engine COMMIT

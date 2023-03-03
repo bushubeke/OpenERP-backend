@@ -1,0 +1,4 @@
+2023-03-03 12:51:32,496 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:32,497 INFO sqlalchemy.engine.Engine INSERT INTO admin_user (uid, email, password, date_registered, disabled) VALUES (?, ?, ?, CURRENT_TIMESTAMP, ?)
+2023-03-03 12:51:32,497 INFO sqlalchemy.engine.Engine [cached since 0.5281s ago] ('5b210465-696e-4e04-b834-202c2423ea47', 'beimdegefu@gmail.com', '$pbkdf2-sha512$25000$LEXIOQeAUArBWMv5v9faG.Pcm9N6L4XQ2jvn3Jtzzvnfe885Z6y1dq51bs25Nwbg/F9rDcE4JyQkpJTyvjfGuDdmLCWkdO6d896bE.L8f28$7eneEY8cAOr.1NhZQF7Kxu4vlDnarcpPwGlx6Iv4uZN049GBQqQMSsHg.5sN0VDqkPfTbTb2xke2cvyvYMAi4g', 0)
+2023-03-03 12:51:32,498 INFO sqlalchemy.engine.Engine ROLLBACK

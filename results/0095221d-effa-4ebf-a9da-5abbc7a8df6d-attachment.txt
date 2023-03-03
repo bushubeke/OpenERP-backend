@@ -1,0 +1,12 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_user.id, admin_user.uid, admin_user.email, admin_user.password, admin_user.date_registered, admin_user.disabled, admin_role_1.id AS id_1, admin_role_1.name, admin_role_1.description 
+FROM admin_user LEFT OUTER JOIN (admin_roles_users AS admin_roles_users_1 JOIN admin_role AS admin_role_1 ON admin_role_1.id = admin_roles_users_1.role_id) ON admin_user.id = admin_roles_users_1.user_id 
+WHERE admin_user.uid = ?
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [cached since 3.569s ago] ('148219c6-d866-42de-8627-ee355493bef3',)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2617 ROLLBACK
+[1m[31mERROR   [0m erp_logger:roles.py:129 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/home/bushu/Documents/Charms/openerp/users/responses/roles.py", line 119, in add_user_role_delete
+    user_id = user.id
+              ^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'

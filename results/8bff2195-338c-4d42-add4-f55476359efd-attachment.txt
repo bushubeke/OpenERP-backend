@@ -1,0 +1,6 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_role.id, admin_role.name, admin_role.description 
+FROM admin_role 
+WHERE admin_role.id = ?
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [cached since 0.5804s ago] (25,)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2617 ROLLBACK

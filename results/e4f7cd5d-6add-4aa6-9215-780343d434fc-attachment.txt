@@ -1,0 +1,5 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 INSERT INTO admin_role (name, description) VALUES (?, ?)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [generated in 0.00019s] ('superuser', 'Developer Role')
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2620 COMMIT
+[32mINFO    [0m erp_logger:roles.py:25 Role superuser have been created successfully

@@ -1,0 +1,14 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_role.id, admin_role.name, admin_role.description 
+FROM admin_role 
+WHERE admin_role.id = ?
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [cached since 4.532s ago] (1,)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_role_1.id AS admin_role_1_id, admin_user.id AS admin_user_id, admin_user.uid AS admin_user_uid, admin_user.email AS admin_user_email, admin_user.password AS admin_user_password, admin_user.date_registered AS admin_user_date_registered, admin_user.disabled AS admin_user_disabled, admin_role_2.id AS admin_role_2_id, admin_role_2.name AS admin_role_2_name, admin_role_2.description AS admin_role_2_description 
+FROM admin_role AS admin_role_1 JOIN admin_roles_users AS admin_roles_users_1 ON admin_role_1.id = admin_roles_users_1.role_id JOIN admin_user ON admin_user.id = admin_roles_users_1.user_id LEFT OUTER JOIN (admin_roles_users AS admin_roles_users_2 JOIN admin_role AS admin_role_2 ON admin_role_2.id = admin_roles_users_2.role_id) ON admin_user.id = admin_roles_users_2.user_id 
+WHERE admin_role_1.id IN (?)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [cached since 4.51s ago] (1,)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_route_response.id, admin_route_response.name, admin_route_response.route_path, admin_route_response.description 
+FROM admin_route_response 
+WHERE admin_route_response.id = ?
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [cached since 1.652s ago] (25,)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2617 ROLLBACK

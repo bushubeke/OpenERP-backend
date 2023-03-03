@@ -1,0 +1,9 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_route_response.id, admin_route_response.name, admin_route_response.route_path, admin_route_response.description 
+FROM admin_route_response 
+WHERE admin_route_response.id = ?
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [cached since 0.6734s ago] (2,)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 DELETE FROM admin_route_response WHERE admin_route_response.id = ?
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [generated in 0.00041s] (2,)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2620 COMMIT
+[32mINFO    [0m erp_logger:routepath.py:66 Path adding address have been deleted successfully

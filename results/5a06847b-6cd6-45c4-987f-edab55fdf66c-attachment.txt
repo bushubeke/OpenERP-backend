@@ -1,0 +1,278 @@
+2023-03-03 12:51:26,067 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:26,068 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:26,068 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_employee")
+2023-03-03 12:51:26,068 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,068 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_employee")
+2023-03-03 12:51:26,068 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,069 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_employee_address")
+2023-03-03 12:51:26,069 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,069 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_employee_address")
+2023-03-03 12:51:26,069 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,069 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_file_type")
+2023-03-03 12:51:26,069 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,069 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_file_type")
+2023-03-03 12:51:26,069 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_documents")
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_documents")
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_banks")
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_banks")
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_bank_details")
+2023-03-03 12:51:26,070 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_bank_details")
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_job_description")
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_job_description")
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_leave_config")
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_leave_config")
+2023-03-03 12:51:26,071 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,072 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_employee_leave")
+2023-03-03 12:51:26,072 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,072 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_employee_leave")
+2023-03-03 12:51:26,072 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,072 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hr_leave_request")
+2023-03-03 12:51:26,072 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,072 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("hr_leave_request")
+2023-03-03 12:51:26,072 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,073 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("admin_role")
+2023-03-03 12:51:26,073 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,073 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("admin_role")
+2023-03-03 12:51:26,073 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,073 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("admin_user")
+2023-03-03 12:51:26,073 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,074 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("admin_user")
+2023-03-03 12:51:26,074 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,074 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("admin_roles_users")
+2023-03-03 12:51:26,074 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,074 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("admin_roles_users")
+2023-03-03 12:51:26,075 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,075 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("admin_route_response")
+2023-03-03 12:51:26,076 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,077 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("admin_route_response")
+2023-03-03 12:51:26,077 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,078 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("admin_roles_route_response")
+2023-03-03 12:51:26,079 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,079 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("admin_roles_route_response")
+2023-03-03 12:51:26,079 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,080 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("admin_site_data")
+2023-03-03 12:51:26,080 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,081 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("admin_site_data")
+2023-03-03 12:51:26,081 INFO sqlalchemy.engine.Engine [raw sql] ()
+2023-03-03 12:51:26,083 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_file_type (
+	id INTEGER NOT NULL, 
+	name VARCHAR(10) NOT NULL, 
+	description TEXT, 
+	PRIMARY KEY (id)
+)
+
+
+2023-03-03 12:51:26,083 INFO sqlalchemy.engine.Engine [no key 0.00033s] ()
+2023-03-03 12:51:26,426 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_banks (
+	id INTEGER NOT NULL, 
+	name VARCHAR(50) NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+2023-03-03 12:51:26,427 INFO sqlalchemy.engine.Engine [no key 0.00057s] ()
+2023-03-03 12:51:26,843 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_leave_config (
+	id INTEGER NOT NULL, 
+	name VARCHAR(30) NOT NULL, 
+	days FLOAT NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+2023-03-03 12:51:26,843 INFO sqlalchemy.engine.Engine [no key 0.00076s] ()
+2023-03-03 12:51:27,165 INFO sqlalchemy.engine.Engine 
+CREATE TABLE admin_role (
+	id INTEGER NOT NULL, 
+	name VARCHAR(80), 
+	description VARCHAR(255), 
+	PRIMARY KEY (id), 
+	UNIQUE (name)
+)
+
+
+2023-03-03 12:51:27,166 INFO sqlalchemy.engine.Engine [no key 0.00025s] ()
+2023-03-03 12:51:27,541 INFO sqlalchemy.engine.Engine 
+CREATE TABLE admin_user (
+	id INTEGER NOT NULL, 
+	uid VARCHAR(36), 
+	email VARCHAR(255) NOT NULL, 
+	password VARCHAR(500) NOT NULL, 
+	date_registered DATETIME, 
+	disabled BOOLEAN, 
+	PRIMARY KEY (id), 
+	UNIQUE (uid), 
+	UNIQUE (email)
+)
+
+
+2023-03-03 12:51:27,541 INFO sqlalchemy.engine.Engine [no key 0.00021s] ()
+2023-03-03 12:51:28,015 INFO sqlalchemy.engine.Engine 
+CREATE TABLE admin_route_response (
+	id INTEGER NOT NULL, 
+	name VARCHAR(25), 
+	route_path VARCHAR(300) NOT NULL, 
+	description VARCHAR(255), 
+	PRIMARY KEY (id), 
+	UNIQUE (route_path)
+)
+
+
+2023-03-03 12:51:28,015 INFO sqlalchemy.engine.Engine [no key 0.00060s] ()
+2023-03-03 12:51:28,585 INFO sqlalchemy.engine.Engine 
+CREATE TABLE admin_site_data (
+	id INTEGER NOT NULL, 
+	remote_add VARCHAR(50) NOT NULL, 
+	accessed_route VARCHAR(1000) NOT NULL, 
+	method VARCHAR(7) NOT NULL, 
+	response_time FLOAT, 
+	response_status VARCHAR(80), 
+	PRIMARY KEY (id)
+)
+
+
+2023-03-03 12:51:28,586 INFO sqlalchemy.engine.Engine [no key 0.00074s] ()
+2023-03-03 12:51:29,086 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_employee (
+	id INTEGER NOT NULL, 
+	first_name VARCHAR(100) NOT NULL, 
+	middle_name VARCHAR(100) NOT NULL, 
+	last_name VARCHAR(100) NOT NULL, 
+	birth_date DATETIME NOT NULL, 
+	gender VARCHAR(5) NOT NULL, 
+	hire_date DATETIME, 
+	manager_id INTEGER, 
+	salary INTEGER, 
+	user_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(manager_id) REFERENCES hr_employee (id), 
+	UNIQUE (user_id), 
+	FOREIGN KEY(user_id) REFERENCES admin_user (id)
+)
+
+
+2023-03-03 12:51:29,086 INFO sqlalchemy.engine.Engine [no key 0.00058s] ()
+2023-03-03 12:51:29,557 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_job_description (
+	id INTEGER NOT NULL, 
+	role_id INTEGER NOT NULL, 
+	task VARCHAR(50) NOT NULL, 
+	task_description TEXT(2000) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(role_id) REFERENCES admin_role (id)
+)
+
+
+2023-03-03 12:51:29,557 INFO sqlalchemy.engine.Engine [no key 0.00056s] ()
+2023-03-03 12:51:29,900 INFO sqlalchemy.engine.Engine 
+CREATE TABLE admin_roles_users (
+	id INTEGER NOT NULL, 
+	user_id INTEGER NOT NULL, 
+	role_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (user_id, role_id), 
+	FOREIGN KEY(user_id) REFERENCES admin_user (id) ON DELETE CASCADE, 
+	FOREIGN KEY(role_id) REFERENCES admin_role (id) ON DELETE CASCADE
+)
+
+
+2023-03-03 12:51:29,900 INFO sqlalchemy.engine.Engine [no key 0.00066s] ()
+2023-03-03 12:51:30,243 INFO sqlalchemy.engine.Engine 
+CREATE TABLE admin_roles_route_response (
+	id INTEGER NOT NULL, 
+	page_id INTEGER NOT NULL, 
+	role_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (page_id, role_id), 
+	FOREIGN KEY(page_id) REFERENCES admin_route_response (id) ON DELETE CASCADE, 
+	FOREIGN KEY(role_id) REFERENCES admin_role (id) ON DELETE CASCADE
+)
+
+
+2023-03-03 12:51:30,243 INFO sqlalchemy.engine.Engine [no key 0.00058s] ()
+2023-03-03 12:51:30,455 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_employee_address (
+	id INTEGER NOT NULL, 
+	employee_id INTEGER NOT NULL, 
+	city VARCHAR(20) NOT NULL, 
+	phone_number VARCHAR(30) NOT NULL, 
+	kebele INTEGER NOT NULL, 
+	woreda INTEGER NOT NULL, 
+	p_o_box VARCHAR(10) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(employee_id) REFERENCES hr_employee (id)
+)
+
+
+2023-03-03 12:51:30,455 INFO sqlalchemy.engine.Engine [no key 0.00056s] ()
+2023-03-03 12:51:30,666 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_documents (
+	id INTEGER NOT NULL, 
+	file_name VARCHAR(1000) NOT NULL, 
+	employee_id INTEGER NOT NULL, 
+	file_type_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(employee_id) REFERENCES hr_employee (id), 
+	FOREIGN KEY(file_type_id) REFERENCES hr_file_type (id)
+)
+
+
+2023-03-03 12:51:30,666 INFO sqlalchemy.engine.Engine [no key 0.00043s] ()
+2023-03-03 12:51:31,023 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_bank_details (
+	id INTEGER NOT NULL, 
+	employee_id INTEGER NOT NULL, 
+	bank_id INTEGER NOT NULL, 
+	account_number VARCHAR(100) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(employee_id) REFERENCES hr_employee (id), 
+	FOREIGN KEY(bank_id) REFERENCES hr_banks (id)
+)
+
+
+2023-03-03 12:51:31,023 INFO sqlalchemy.engine.Engine [no key 0.00059s] ()
+2023-03-03 12:51:31,290 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_employee_leave (
+	id INTEGER NOT NULL, 
+	employee_id INTEGER NOT NULL, 
+	leave_config_id INTEGER NOT NULL, 
+	days FLOAT NOT NULL, 
+	balance FLOAT, 
+	leave_year INTEGER NOT NULL, 
+	status BOOLEAN NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (employee_id, leave_config_id, leave_year), 
+	FOREIGN KEY(employee_id) REFERENCES hr_employee (id), 
+	FOREIGN KEY(leave_config_id) REFERENCES hr_leave_config (id)
+)
+
+
+2023-03-03 12:51:31,290 INFO sqlalchemy.engine.Engine [no key 0.00026s] ()
+2023-03-03 12:51:31,429 INFO sqlalchemy.engine.Engine 
+CREATE TABLE hr_leave_request (
+	id INTEGER NOT NULL, 
+	leave_id INTEGER, 
+	start_date DATETIME NOT NULL, 
+	requested_days FLOAT NOT NULL, 
+	status VARCHAR(9), 
+	partial FLOAT, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(leave_id) REFERENCES hr_employee_leave (id)
+)
+
+
+2023-03-03 12:51:31,429 INFO sqlalchemy.engine.Engine [no key 0.00022s] ()
+2023-03-03 12:51:31,897 INFO sqlalchemy.engine.Engine COMMIT
+2023-03-03 12:51:31,898 INFO sqlalchemy.engine.Engine COMMIT

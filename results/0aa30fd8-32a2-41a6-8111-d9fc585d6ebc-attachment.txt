@@ -1,0 +1,52 @@
+2023-03-03 12:51:38,583 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:38,583 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:38,584 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_leave_request
+2023-03-03 12:51:38,585 INFO sqlalchemy.engine.Engine [no key 0.00033s] ()
+2023-03-03 12:51:39,257 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_employee_leave
+2023-03-03 12:51:39,257 INFO sqlalchemy.engine.Engine [no key 0.00070s] ()
+2023-03-03 12:51:39,676 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_bank_details
+2023-03-03 12:51:39,676 INFO sqlalchemy.engine.Engine [no key 0.00065s] ()
+2023-03-03 12:51:39,983 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_documents
+2023-03-03 12:51:39,984 INFO sqlalchemy.engine.Engine [no key 0.00084s] ()
+2023-03-03 12:51:40,799 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_employee_address
+2023-03-03 12:51:40,799 INFO sqlalchemy.engine.Engine [no key 0.00052s] ()
+2023-03-03 12:51:41,198 INFO sqlalchemy.engine.Engine 
+DROP TABLE admin_roles_route_response
+2023-03-03 12:51:41,198 INFO sqlalchemy.engine.Engine [no key 0.00030s] ()
+2023-03-03 12:51:41,668 INFO sqlalchemy.engine.Engine 
+DROP TABLE admin_roles_users
+2023-03-03 12:51:41,669 INFO sqlalchemy.engine.Engine [no key 0.00069s] ()
+2023-03-03 12:51:42,049 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_job_description
+2023-03-03 12:51:42,050 INFO sqlalchemy.engine.Engine [no key 0.00096s] ()
+2023-03-03 12:51:42,283 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_employee
+2023-03-03 12:51:42,284 INFO sqlalchemy.engine.Engine [no key 0.00054s] ()
+2023-03-03 12:51:42,660 INFO sqlalchemy.engine.Engine 
+DROP TABLE admin_site_data
+2023-03-03 12:51:42,660 INFO sqlalchemy.engine.Engine [no key 0.00067s] ()
+2023-03-03 12:51:43,041 INFO sqlalchemy.engine.Engine 
+DROP TABLE admin_route_response
+2023-03-03 12:51:43,041 INFO sqlalchemy.engine.Engine [no key 0.00052s] ()
+2023-03-03 12:51:43,417 INFO sqlalchemy.engine.Engine 
+DROP TABLE admin_user
+2023-03-03 12:51:43,418 INFO sqlalchemy.engine.Engine [no key 0.00069s] ()
+2023-03-03 12:51:43,677 INFO sqlalchemy.engine.Engine 
+DROP TABLE admin_role
+2023-03-03 12:51:43,678 INFO sqlalchemy.engine.Engine [no key 0.00051s] ()
+2023-03-03 12:51:44,146 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_leave_config
+2023-03-03 12:51:44,146 INFO sqlalchemy.engine.Engine [no key 0.00066s] ()
+2023-03-03 12:51:44,697 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_banks
+2023-03-03 12:51:44,697 INFO sqlalchemy.engine.Engine [no key 0.00051s] ()
+2023-03-03 12:51:45,530 INFO sqlalchemy.engine.Engine 
+DROP TABLE hr_file_type
+2023-03-03 12:51:45,531 INFO sqlalchemy.engine.Engine [no key 0.00085s] ()
+2023-03-03 12:51:46,134 INFO sqlalchemy.engine.Engine COMMIT
+2023-03-03 12:51:46,135 INFO sqlalchemy.engine.Engine COMMIT

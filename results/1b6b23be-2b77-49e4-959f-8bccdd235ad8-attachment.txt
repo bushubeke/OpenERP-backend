@@ -1,0 +1,17 @@
+ERROR:    | 2023-03-03 12:51:32 | hash must be unicode or bytes, not None
+Traceback (most recent call last):
+  File "/home/bushu/Documents/Charms/openerp/users/responses/login.py", line 13, in login_user
+    if pbkdf2_sha512.verify(login_data['password'], data["password"]):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bushu/.local/share/virtualenvs/openerp-vNWIj9jV/lib/python3.11/site-packages/passlib/utils/handlers.py", line 788, in verify
+    self = cls.from_string(hash, **context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bushu/.local/share/virtualenvs/openerp-vNWIj9jV/lib/python3.11/site-packages/passlib/handlers/pbkdf2.py", line 65, in from_string
+    rounds, salt, chk = uh.parse_mc3(hash, cls.ident, handler=cls)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bushu/.local/share/virtualenvs/openerp-vNWIj9jV/lib/python3.11/site-packages/passlib/utils/handlers.py", line 195, in parse_mc3
+    hash = to_unicode(hash, "ascii", "hash")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bushu/.local/share/virtualenvs/openerp-vNWIj9jV/lib/python3.11/site-packages/passlib/utils/__init__.py", line 764, in to_unicode
+    raise ExpectedStringError(source, param)
+TypeError: hash must be unicode or bytes, not None

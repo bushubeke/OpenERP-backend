@@ -1,0 +1,6 @@
+[1m[31mERROR   [0m erp_logger:routepath.py:112 type object 'RouteResponse' has no attribute 'route_id'
+Traceback (most recent call last):
+  File "/home/bushu/Documents/Charms/openerp/users/responses/routepath.py", line 103, in add_response_path_role_delete
+    await session.execute(delete(RouteResponse).where(RouteResponse.route_id == route_id)
+                                                      ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'RouteResponse' has no attribute 'route_id'

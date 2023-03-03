@@ -1,0 +1,6 @@
+2023-03-03 12:51:35,086 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:35,087 INFO sqlalchemy.engine.Engine SELECT admin_user.id, admin_user.uid, admin_user.email, admin_user.password, admin_user.date_registered, admin_user.disabled 
+FROM admin_user 
+WHERE admin_user.uid = ?
+2023-03-03 12:51:35,087 INFO sqlalchemy.engine.Engine [cached since 0.02237s ago] ('be21eee2-34eb-43c0-a827-1bacd6019bee',)
+2023-03-03 12:51:35,089 INFO sqlalchemy.engine.Engine ROLLBACK

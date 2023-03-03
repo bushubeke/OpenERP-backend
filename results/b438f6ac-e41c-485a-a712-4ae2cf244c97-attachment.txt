@@ -1,0 +1,6 @@
+2023-03-03 12:51:37,527 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:37,528 INFO sqlalchemy.engine.Engine SELECT admin_route_response.id, admin_route_response.name, admin_route_response.route_path, admin_route_response.description 
+FROM admin_route_response 
+WHERE admin_route_response.id = ?
+2023-03-03 12:51:37,528 INFO sqlalchemy.engine.Engine [cached since 0.6352s ago] (25,)
+2023-03-03 12:51:37,530 INFO sqlalchemy.engine.Engine ROLLBACK

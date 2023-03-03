@@ -1,0 +1,9 @@
+2023-03-03 12:51:32,511 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:32,516 INFO sqlalchemy.engine.Engine SELECT admin_user.id, admin_user.uid, admin_user.email, admin_user.password, admin_user.date_registered, admin_user.disabled, admin_role_1.id AS id_1, admin_role_1.name, admin_role_1.description 
+FROM admin_user LEFT OUTER JOIN (admin_roles_users AS admin_roles_users_1 JOIN admin_role AS admin_role_1 ON admin_role_1.id = admin_roles_users_1.role_id) ON admin_user.id = admin_roles_users_1.user_id 
+WHERE admin_user.uid = ?
+2023-03-03 12:51:32,516 INFO sqlalchemy.engine.Engine [generated in 0.00024s] ('5b210465-696e-4e04-b834-202c2423ea47',)
+2023-03-03 12:51:32,519 INFO sqlalchemy.engine.Engine UPDATE admin_user SET email=?, date_registered=? WHERE admin_user.uid = ?
+2023-03-03 12:51:32,519 INFO sqlalchemy.engine.Engine [generated in 0.00027s] ('beimdegefu@yandex.com', '2023-02-28 08:58:24.743000', '5b210465-696e-4e04-b834-202c2423ea47')
+2023-03-03 12:51:32,521 INFO sqlalchemy.engine.Engine COMMIT
+{'email': 'beimdegefu@yandex.com', 'date_registered': '2023-02-28T08:58:24.743000+00:00'}

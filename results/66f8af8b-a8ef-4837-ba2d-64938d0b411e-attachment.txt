@@ -1,0 +1,4 @@
+2023-03-03 12:51:36,877 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:36,877 INFO sqlalchemy.engine.Engine INSERT INTO admin_route_response (name, route_path, description) VALUES (?, ?, ?)
+2023-03-03 12:51:36,877 INFO sqlalchemy.engine.Engine [cached since 0.7381s ago] ('adding address', 'address_delete', 'employee address posting')
+2023-03-03 12:51:36,879 INFO sqlalchemy.engine.Engine ROLLBACK

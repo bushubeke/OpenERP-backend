@@ -1,0 +1,6 @@
+2023-03-03 12:51:32,898 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:32,898 INFO sqlalchemy.engine.Engine SELECT admin_user.id, admin_user.uid, admin_user.email, admin_user.password, admin_user.date_registered, admin_user.disabled, admin_role_1.id AS id_1, admin_role_1.name, admin_role_1.description 
+FROM admin_user LEFT OUTER JOIN (admin_roles_users AS admin_roles_users_1 JOIN admin_role AS admin_role_1 ON admin_role_1.id = admin_roles_users_1.role_id) ON admin_user.id = admin_roles_users_1.user_id 
+WHERE admin_user.email = ?
+2023-03-03 12:51:32,898 INFO sqlalchemy.engine.Engine [cached since 0.009095s ago] ('beimdegefu@yandex.com',)
+2023-03-03 12:51:32,932 INFO sqlalchemy.engine.Engine ROLLBACK

@@ -1,0 +1,6 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_user.id, admin_user.uid, admin_user.email, admin_user.password, admin_user.date_registered, admin_user.disabled, admin_role_1.id AS id_1, admin_role_1.name, admin_role_1.description 
+FROM admin_user LEFT OUTER JOIN (admin_roles_users AS admin_roles_users_1 JOIN admin_role AS admin_role_1 ON admin_role_1.id = admin_roles_users_1.role_id) ON admin_user.id = admin_roles_users_1.user_id 
+WHERE admin_user.uid = ?
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [cached since 0.3655s ago] ('8b1d7691-1db9-457f-b324-ad00e213f89a',)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2617 ROLLBACK

@@ -1,0 +1,4 @@
+2023-03-03 12:51:33,949 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:33,950 INFO sqlalchemy.engine.Engine INSERT INTO admin_role (name, description) VALUES (?, ?)
+2023-03-03 12:51:33,951 INFO sqlalchemy.engine.Engine [cached since 0.986s ago] ('superuser', 'Developer Role')
+2023-03-03 12:51:33,955 INFO sqlalchemy.engine.Engine ROLLBACK

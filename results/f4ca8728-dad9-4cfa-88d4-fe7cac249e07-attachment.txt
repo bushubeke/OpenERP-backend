@@ -1,0 +1,4 @@
+2023-03-03 12:51:33,430 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:33,431 INFO sqlalchemy.engine.Engine INSERT INTO admin_role (name, description) VALUES (?, ?)
+2023-03-03 12:51:33,432 INFO sqlalchemy.engine.Engine [cached since 0.4668s ago] ('will delete', 'delete')
+2023-03-03 12:51:33,436 INFO sqlalchemy.engine.Engine COMMIT

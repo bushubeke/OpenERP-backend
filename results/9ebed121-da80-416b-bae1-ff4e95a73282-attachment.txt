@@ -1,0 +1,6 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_route_response.id, admin_route_response.name, admin_route_response.route_path, admin_route_response.description 
+FROM admin_route_response 
+WHERE admin_route_response.id = ?
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [cached since 0.6352s ago] (25,)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2617 ROLLBACK

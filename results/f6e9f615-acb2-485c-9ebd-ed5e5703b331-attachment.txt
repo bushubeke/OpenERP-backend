@@ -1,0 +1,5 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 INSERT INTO admin_route_response (name, route_path, description) VALUES (?, ?, ?)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [generated in 0.00027s] ('adding address', 'address_delete', 'employee address posting')
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2620 COMMIT
+[32mINFO    [0m erp_logger:routepath.py:25 Path adding address have been created successfully

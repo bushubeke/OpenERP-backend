@@ -1,0 +1,5 @@
+2023-03-03 12:51:32,953 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-03 12:51:32,955 INFO sqlalchemy.engine.Engine SELECT admin_role.id, admin_role.name, admin_role.description 
+FROM admin_role
+2023-03-03 12:51:32,955 INFO sqlalchemy.engine.Engine [generated in 0.00039s] ()
+2023-03-03 12:51:32,958 INFO sqlalchemy.engine.Engine ROLLBACK

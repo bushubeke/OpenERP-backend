@@ -1,0 +1,6 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_user.id, admin_user.uid, admin_user.email, admin_user.password, admin_user.date_registered, admin_user.disabled 
+FROM admin_user 
+WHERE admin_user.uid = ?
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [cached since 0.02237s ago] ('be21eee2-34eb-43c0-a827-1bacd6019bee',)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2617 ROLLBACK

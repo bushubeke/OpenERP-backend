@@ -1,0 +1,6 @@
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2614 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 SELECT admin_role.id, admin_role.name, admin_role.description 
+FROM admin_role
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:1572 [generated in 0.00039s] ()
+[32mINFO    [0m erp_logger:roles.py:9 Role  have been fetched successfully
+[32mINFO    [0m sqlalchemy.engine.Engine:base.py:2617 ROLLBACK
